@@ -1,25 +1,40 @@
-const son1 = 10;
-const son2 = 5;
-const arifmetikAmal = "*";
-let natija;
-
-switch (arifmetikAmal) {
-    case "+":
-        natija = son1 + son2;
-        break;
-    case "-":
-        natija = son1 - son2;
-    case "*":
-        natija = son1 * son2;
-        break;
-    case "/":
-        natija = son1 / son2;
-        break;
-    default:
-        natija = "arifmetikAmal topilmadi";
-        break;
+let i = 1;
+while (i < 10) {
+    i++;
+console.log(i);
 }
-console.log (natija);
+
+let is = 10;
+while (is => 0) {
+    is--;
+console.log(is);
+}
+
+let ik = 0; 
+while (ik <= 20) {
+if (ik % 2 == 0) { 
+   console.log(ik);
+}
+
+
+ik++
+
+}
+
+
+let ij = 5;
+do {
+
+    
+} while (ij => 0) 
+    ij--;
+console.log(ij);
+
+
+ 
+
+
+
 
 
 
